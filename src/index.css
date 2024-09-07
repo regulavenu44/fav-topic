@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    background-image: url('https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/k7qe0iiahvgl3txbcfji');
+    opacity: 0.85;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.headertext{
+   font-weight: bold;
+   font-size: 50px;
+}
+#root{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+   margin-bottom: 10px;
+}
